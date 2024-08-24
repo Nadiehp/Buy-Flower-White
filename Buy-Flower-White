@@ -1,0 +1,5 @@
+local args = {
+    [1] = "Flower White"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
